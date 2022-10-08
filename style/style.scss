@@ -26,20 +26,13 @@ a:visited{
     color: crimson;
 }
 
-h2:hover{
-    font-size: larger;
-    text-decoration: line-through;
-    color: forestgreen;
-}
-
 #selectors{
     font-size: larger;
+    &:hover{
+        text-decoration: line-through;
+        color: forestgreen;
+    }
 }
-:hover{
-    text-decoration: line-through;
-    color: forestgreen;
-}
-
 
 .important:active{
     font-size: smaller;
